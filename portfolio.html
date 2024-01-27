@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Website</title>
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header start  -->
+    <div class="menu d-none d-lg-flex">
+        <ul class="position-fixed" style="right: 30px; bottom: 0;z-index: 3;opacity: 1;top: 0;
+            height: 100%;display: flex !important;justify-content: center;flex-direction: column;align-items: center;">
+            <li class="">
+                <a href="index.html" class="text-white">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="text-white">
+                    <i class="fa-solid fa-user"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">ABOUT</span>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="active text-white">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">PORTFOLIO</span>
+                </a>
+            </li>
+            <li>
+                <a href="contect.html" class="text-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">CONTECT</span>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="text-white">
+                    <i class="fa-solid fa-pencil"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="service.html" class="text-white">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">SERVICE</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+
+    <!-- toggle start  -->
+    <button class="btn bg-secondery text-white position-fixed d-lg-none " style="top: 20px; right: 45px;" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-bars"></i></button>
+
+    <div class="offcanvas bg-secondery offcanvas-end" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close bg-white text-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="index.html"><i
+                            class="pe-4 fa-solid fa-house-chimney"></i>HOME</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="about.html"><i class="pe-4 fa-solid fa-user"></i>ABOUT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="active-2 text-secondery" href="portfolio.html"><i
+                            class="pe-4 fa-solid fa-briefcase"></i>PORTFOLIO</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="contect.html"><i class="pe-4 fa-solid fa-envelope"></i>CONTECT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="blog.html"><i class="pe-4 fa-solid fa-pencil"></i>BLOG</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="service.html"><i
+                            class="pe-4 fa-solid fa-screwdriver-wrench"></i>SERVICE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- toggle end -->
+    <!-- title start  -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="title d-flex justify-content-center position-relative" style="padding: 100px 0;">
+                    <h1 class="fs-56 text-uppercase m-0" style="font-weight: 900;">
+                        My
+                        <span class="text-primary">Portfolio</span>
+                    </h1>
+                    <span class="back-title position-absolute text-uppercase"
+                        style="font-size: 90px; color: rgba(255, 255, 255, 0.07);transform: translateY(-50%);font-weight: 900; top: 50%; margin: 0 auto; letter-spacing: 10px;">Works</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- title end -->
+
+    <!-- portfolio start  -->
+        <section class="portfolio">
+            <div class="container">
+                <div class="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="Hnice responsive loder" target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-5 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">CSS/J-QUERY/MEDIA-QUERY</h4>
+                                    <h3 class="fw-normal my-2" style="color: #4b4747;">HNICE WEBSITE</h3>
+                                    <p class="m-0" style="color: #4b4747;">We deliver the ideal home to you!</p>
+                                </div>
+                                <img src="assets/img/henice-01.jpg" style="border-radius: 15px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="Rosoi loader" target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-5 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">CSS/J-QUERY</h4>
+                                    <h3 class="fw-normal my-2" style="color: #4b4747;">ROSOI WEBSITE</h3>
+                                    <p class="m-0" style="color: #4b4747;">Delicious & Mouth Watering Test</p>
+                                </div>
+                                <img src="assets/img/rosoi-01.jpg" style="border-radius: 15px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="Evara dashboard"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-5 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">J-QUERY/MEDIA-QUERY</h4>
+                                    <h3 class="my-2 fw-normal" style="color: #4b4747;">EVARA DASHBOARD</h3>
+                                    
+                                </div>
+                                <img src="assets/img/dasbord-01.jpg" style="border-radius: 15px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="bootstrap pr-1"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-4 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">BOOTSTRAP/MEDIA_QUERY</h4>
+                                    <h3 class="my-2 fw-normal" style="color: #4b4747;">WASHUP WEBSITE</h3>
+                                    <p class="m-0 text-center" style="color: #4b4747;">We will help you to feel better and enjoy every single day.</p>
+                                </div>
+                                <img src="assets/img/washup-01.jpg" style="border-radius: 15px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="https://www.behance.net/gallery/187448283/Rapid-Shoes"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-4 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">BOOTSTRAP/MEDIA_QUERY</h4>
+                                    <h3 class="my-2 fw-normal" style="color: #4b4747;">RAPID WEBSITE</h3>
+                                    <p class="m-0 text-center" style="color: #4b4747;">Shoe of the best Quality</p>
+                                </div>
+                                <img src="assets/img/Slide 16_9 - 1.jpg" style="height: 220px; border-radius: 15px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="https://www.behance.net/gallery/187448519/petshope"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-4 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">FIGMA/PHOTOSHOP</h4>
+                                    <h3 class="my-2 fw-normal" style="color: #4b4747;">PETSHOP WEBSITE</h3>
+                                    <p class="m-0 text-center" style="color: #4b4747;">Our pet Supply shop</p>
+                                </div>
+                                <img src="assets/img/Slide 16_9 - 6.jpg" style="border-radius: 15px; height: 220px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="https://www.behance.net/gallery/187446931/Sky-Insurance"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-4 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">FIGMA/PHOTOSHOP</h4>
+                                    <h3 class="my-2 fw-normal" style="color: #4b4747;">INSURANCE APP DESIGN</h3>
+                                    <p class="m-0 text-center" style="color: #4b4747;">We make insurance easy</p>
+                                </div>
+                                <img src="assets/img/Slide 16_9 - 7.jpg" style="border-radius: 15px; height: 220px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="https://www.behance.net/gallery/187447919/Binary-Byts"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <div class="py-4 opacity-0 box-bg position-absolute d-flex flex-wrap flex-column justify-content-center align-items-center rounded-4 top-0 start-0 w-100 h-100" style="background-color: rgb(255, 255, 255); transition: all 0.5s;">
+                                    <h4 class="m-0 text-primary">FIGMA/PHOTOSHOP</h4>
+                                    <h3 class="my-2 fw-normal" style="color: #4b4747;">EDUCATION APP DESIGN</h3>
+                                    <p class="m-0 text-center" style="color: #4b4747;">A smarter way to learn with binery byt's</p>
+                                </div>
+                                <img src="assets/img/bynery byts.jpg" style="border-radius: 15px; height: 220px;" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box pb-4 overflow-hidden" style="border-radius: 15px;">
+                        <a href="#"target="_blank">
+                            <div class="box-img position-relative overflow-hidden">
+                                <img src="assets/img/project-9.jpg" style="border-radius: 15px; height: 220px;"alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- portfolio end -->
+
+
+
+    <!-- js link  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

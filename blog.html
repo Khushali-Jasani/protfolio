@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - portfolio</title>
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- header start  -->
+    <div class="menu d-none d-lg-flex">
+        <ul class="position-fixed" style="right: 30px; bottom: 0;z-index: 3;opacity: 1;top: 0;
+            height: 100%;display: flex !important;justify-content: center;flex-direction: column;align-items: center;">
+            <li class="">
+                <a href="index.html" class="text-white">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="text-white">
+                    <i class="fa-solid fa-user"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">ABOUT</span>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="text-white">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">PORTFOLIO</span>
+                </a>
+            </li>
+            <li>
+                <a href="contect.html" class="text-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">CONTECT</span>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="active text-white">
+                    <i class="fa-solid fa-pencil"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="service.html" class="text-white">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">SERVICE</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+
+    <!-- toggle start  -->
+    <button class="btn bg-secondery text-white position-fixed d-lg-none " style="top: 20px; right: 45px;" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-bars"></i></button>
+
+    <div class="offcanvas bg-secondery offcanvas-end" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close bg-white text-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="index.html"><i
+                            class="pe-4 fa-solid fa-house-chimney"></i>HOME</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="about.html"><i class="pe-4 fa-solid fa-user"></i>ABOUT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="portfolio.html"><i
+                            class="pe-4 fa-solid fa-briefcase"></i>PORTFOLIO</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="contect.html"><i class="pe-4 fa-solid fa-envelope"></i>CONTECT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="active-2 text-secondery" href="blog.html"><i class="pe-4 fa-solid fa-pencil"></i>BLOG</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="service.html"><i
+                            class="pe-4 fa-solid fa-screwdriver-wrench"></i>SERVICE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- toggle end -->
+    
+    <!-- title start  -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="title d-flex justify-content-center position-relative" style="padding: 100px 0;">
+                    <h1 class="fs-56 text-uppercase m-0" style="font-weight: 900;">
+                        My  
+                        <span class="text-primary">Blog</span>
+                    </h1>
+                    <span class="back-title position-absolute text-uppercase"
+                        style="font-size: 90px; color: rgba(255, 255, 255, 0.07);transform: translateY(-50%);font-weight: 900; top: 50%; margin: 0 auto; letter-spacing: 10px;">POSTS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- title end -->
+
+    <!-- card start  -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 pb-4 col-lg-4">
+                    <div class="card rounded-bottom border-0">
+                        <img src="assets/img/70c480f7c95d1712a66d6cb59bc2b91e7b8fc966-1056x704.webp" class="card-img-top" alt="...">
+                        <div class="card-body rounded-bottom bg-secondery border-top border-5 border-primery">
+                            <a href="#" class="text-white">
+                                <h4 class="fs-20 mb-3">Beyond Syntax: Visualizing Code for Seamless Front-End Mastery</h4>
+                            </a>
+                          <p class="text-white fs-15 m-0">design blog, directory or library of tools and solutions. Variety of topics includes CSS, JavaScript, HTML, PHP, frameworks, browser extensions, web apps and tools, CMS templates (the barebone and framework variety), CMSes and wireframing tools.
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 pb-4 col-lg-4">
+                    <div class="card rounded-bottom border-0">
+                        <img src="assets/img/75a982ec665a13478d1fd5ca7a13e49ded3b1f8a-4240x2000.webp" class="card-img-top" alt="...">
+                        <div class="card-body rounded-bottom bg-secondery border-top border-5 border-primery">
+                            <a href="#" class="text-white">
+                                <h4 class="fs-20 mb-3">Bridging design and code with Variants</h4>
+                            </a>
+                          <p class="text-white fs-15 m-0">Today, we’re excited to introduce Variants, which lets you combine variations of the same component—simplifying the asset panel and mapping components more closely to code. This feature, along with changes to the Inspect panel and updates to Auto Layout, will enable designers and developers to work more efficiently together.
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 pb-4 col-lg-4">
+                    <div class="card rounded-bottom border-0">
+                        <img src="assets/img/afaa64f870202a5335047d9c5d827c1036ba9aad-4240x2000.webp" class="card-img-top" alt="...">
+                        <div class="card-body rounded-bottom bg-secondery border-top border-5 border-primery">
+                            <a href="#" class="text-white">
+                                <h4 class="fs-20 mb-3">Talk it out in Figma and Figjam</h4>
+                            </a>
+                          <p class="text-white fs-15 m-0">Today, we launched audio and cursor chat, introducing two new ways to communicate without leaving Figma and FigJam. Now, you can quickly add a question to your cursor or hop on a call to chat with your teammates while you’re working together in the same file. And if you’re jamming in FigJam, you can even high-five.
+                        </p>
+                        </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <!-- card end -->
+
+
+    <!-- js link  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

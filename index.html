@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushali - Portfolio</title>
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header start  -->
+    <div class="menu d-none d-lg-flex">
+        <ul class="position-fixed" style="right: 30px; bottom: 0;z-index: 3;opacity: 1;top: 0;
+            height: 100%;display: flex !important;justify-content: center;flex-direction: column;align-items: center;">
+            <li class="">
+                <a href="index.html" class="active text-white">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="text-white">
+                    <i class="fa-solid fa-user"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">ABOUT</span>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="text-white">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">PORTFOLIO</span>
+                </a>
+            </li>
+            <li>
+                <a href="contect.html" class="text-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">CONTECT</span>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="text-white">
+                    <i class="fa-solid fa-pencil"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="service.html" class="text-white">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">SERVICE</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+
+    <!-- toggle start  -->
+    <button class="btn bg-secondery text-white position-fixed d-lg-none " style="top: 20px; right: 45px;" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-bars"></i></button>
+
+    <div class="offcanvas bg-secondery offcanvas-end" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close bg-white text-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class=" active-2 text-secondery" href="index.html"><i
+                            class="pe-4 fa-solid fa-house-chimney"></i>HOME</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="about.html"><i class="pe-4 fa-solid fa-user"></i>ABOUT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="portfolio.html"><i
+                            class="pe-4 fa-solid fa-briefcase"></i>PORTFOLIO</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="contect.html"><i class="pe-4 fa-solid fa-envelope"></i>CONTECT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="blog.html"><i class="pe-4 fa-solid fa-pencil"></i>BLOG</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="service.html"><i
+                            class="pe-4 fa-solid fa-screwdriver-wrench"></i>SERVICE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- toggle end -->
+
+    <!-- home start  -->
+    <section class="home">
+        <div class="bg d-lg-flex d-none"
+            style="position:fixed; height: 200%; width: 100%; transform: rotate(-15deg);  left: -83%; top: -50%; background-color: #FFB400; z-index: -1;">
+        </div>
+        <div class="container">
+            <div class="row home-details align-items-center">
+                <div class="">
+                    <div class="col-4 bg-img d-lg-flex d-none position-fixed"
+                        style="background-image: url(assets/img/20231212_115135\ 2.jpg);">
+                    </div>
+                    <div class="col-12 col-lg-8 offset-lg pt-5 pt-lg-0">
+                        <div class="home-content d-flex flex-wrap justify-content-center justify-content-lg-start"
+                            style="max-width: 640px; margin: 0 auto;">
+                            <div class="profile-image d-flex justify-content-center">
+                                <div class="profile-img d-lg-none d-flex overflow-hidden"
+                                    style="background-image: url(assets/img/khushali-mini.jpg);background-size: cover; width: 230px; height: 230px; border-radius: 50%; border: 4px solid #4b4747;">
+                                </div>
+                            </div>
+                            <h1 class="position-relative fs-51 mb-5 text-primary fw-bold"
+                                style="padding-left: 70px;margin: 18px 0 10px;text-transform: uppercase;">
+                                I'm Khushali jasani.
+                                <span class="text-white" style="display: block;">Front End Designer</span>
+                            </h1>
+                            <p class="text-white fs-16 mb-5 lh-lg text-center text-lg-start">Hi, I'm Khushali Jasani, a
+                                creative front end
+                                designer. I craft clean and user-friendly digital experiences that blend aesthetics with
+                                functionality. Proficient in HTML, CSS, and UI/UX, I turn design concepts into
+                                responsive websites. Let's bring your ideas to life!</p>
+                            <a href="about.html">
+                                <div class="button position-relative overflow-hidden"
+                                    style="z-index: 1; border-radius: 40px; padding: 14px 70px 14px 35px; background-color: transparent; border: 1px solid #FFB400; display: inline-block;">
+                                    <span class="text-white text-uppercase fw-semibold fs-15"
+                                        style="transition: all 0.5s;">More About Me</span>
+                                    <div class="btn-icon position-absolute text-white fs-19"
+                                        style="background-color: #FFB400; width: 55px; height: 56px; border-radius: 50%; text-align: center; line-height: 55px; bottom: 0;right: -1px;">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home end -->
+
+
+
+    <!-- js link  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

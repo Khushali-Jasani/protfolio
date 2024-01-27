@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service - Portfolio</title>
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header start  -->
+    <div class="menu d-none d-lg-flex">
+        <ul class="position-fixed" style="right: 30px; bottom: 0;z-index: 3;opacity: 1;top: 0;
+            height: 100%;display: flex !important;justify-content: center;flex-direction: column;align-items: center;">
+            <li class="">
+                <a href="index.html" class="text-white">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="text-white">
+                    <i class="fa-solid fa-user"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">ABOUT</span>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="text-white">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">PORTFOLIO</span>
+                </a>
+            </li>
+            <li>
+                <a href="contect.html" class="text-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">CONTECT</span>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="text-white">
+                    <i class="fa-solid fa-pencil"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="service.html" class="active text-white">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">SERVICE</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+
+    <!-- toggle start  -->
+    <button class="btn bg-secondery text-white position-fixed d-lg-none " style="top: 20px; right: 45px;" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-bars"></i></button>
+
+    <div class="offcanvas bg-secondery offcanvas-end" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close bg-white text-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="index.html"><i
+                            class="pe-4 fa-solid fa-house-chimney"></i>HOME</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="about.html"><i class="pe-4 fa-solid fa-user"></i>ABOUT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="portfolio.html"><i
+                            class="pe-4 fa-solid fa-briefcase"></i>PORTFOLIO</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="contect.html"><i class="pe-4 fa-solid fa-envelope"></i>CONTECT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="blog.html"><i class="pe-4 fa-solid fa-pencil"></i>BLOG</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="active-2 text-secondery" href="service.html"><i
+                            class="pe-4 fa-solid fa-screwdriver-wrench"></i>SERVICE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- toggle end -->
+
+    <!-- title start  -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="title d-flex justify-content-center position-relative" style="padding: 100px 0;">
+                    <h1 class="fs-56 text-uppercase m-0" style="font-weight: 900;">
+                        My
+                        <span class="text-primary">Service</span>
+                    </h1>
+                    <span class="back-title position-absolute text-uppercase"
+                        style="font-size: 90px; color: rgba(255, 255, 255, 0.07);transform: translateY(-50%);font-weight: 900; top: 50%; margin: 0 auto; letter-spacing: 10px;">SERVICES
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- title end -->
+
+    <!-- service start  -->
+    <section class="service">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-center bg-secondery border-secondery">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mt-3 mb-4 d-inline-block"
+                                style="width: 100px; height: 100px; border-radius: 50%; border: 1px solid #4b4747; padding: 25px; ">
+                                <img src="assets/img/icon1.png" style="width: 52px; filter: grayscale(1); opacity: .35;"
+                                    alt="">
+                            </h5>
+                            <h4 class="card-subtitle mb-3 fs-20 fw-normal">Sketches</h4>
+                            <p class="card-text fs-16" style="color: #a9adb8;">A sketch refers to a rough, hand-drawn representation of a design idea or concept. Sketching is an essential part of the early stages of the design process</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-center bg-secondery border-secondery">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mt-3 mb-4 d-inline-block"
+                                style="width: 100px; height: 100px; border-radius: 50%; border: 1px solid #4b4747; padding: 25px; ">
+                                <img src="assets/img/icon2.png" style="width: 52px; filter: grayscale(1); opacity: .35;"
+                                    alt="">
+                            </h5>
+                            <h4 class="card-subtitle mb-3 fs-20 fw-normal">UI/UX Design</h4>
+                            <p class="card-text fs-16" style="color: #a9adb8;">UI design focuses on the visual aspects of a digital product, while UX design ensures a positive overall user experience through research, testing, and iterative improvements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-center bg-secondery border-secondery">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mt-3 mb-4 d-inline-block"
+                                style="width: 100px; height: 100px; border-radius: 50%; border: 1px solid #4b4747; padding: 25px; ">
+                                <img src="assets/img/icon4.png" style="width: 52px; filter: grayscale(1); opacity: .35;"
+                                    alt="">
+                            </h5>
+                            <h4 class="card-subtitle mb-3 fs-20 fw-normal">App Design</h4>
+                            <p class="card-text fs-16" style="color: #a9adb8;">Application design involves creating a cohesive and user-friendly interface, incorporating both visual and experiential elements to ensure a satisfying interaction for users.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-center bg-secondery border-secondery">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mt-3 mb-4 d-inline-block"
+                                style="width: 100px; height: 100px; border-radius: 50%; border: 1px solid #4b4747; padding: 25px; ">
+                                <img src="assets/img/icon3.png" style="width: 52px; filter: grayscale(1); opacity: .35;"
+                                    alt="">
+                            </h5>
+                            <h4 class="card-subtitle mb-3 fs-20 fw-normal">Logo Design</h4>
+                            <p class="card-text fs-16" style="color: #a9adb8;">Logo design is the process of creating a visually distinctive and memorable symbol or mark that represents a brand, encapsulating its identity and values in a single graphic element.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-center bg-secondery border-secondery">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mt-3 mb-4 d-inline-block"
+                                style="width: 100px; height: 100px; border-radius: 50%; border: 1px solid #4b4747; padding: 25px; ">
+                                <img src="assets/img/icon5.png" style="width: 52px; filter: grayscale(1); opacity: .35;"
+                                    alt="">
+                            </h5>
+                            <h4 class="card-subtitle mb-3 fs-20 fw-normal">Web Design</h4>
+                            <p class="card-text fs-16" style="color: #a9adb8;">Web design involves creating visually appealing and user-friendly online interfaces for effective and engaging interactions.Web design user-friendly digital experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-center bg-secondery border-secondery">
+                        <div class="card-body p-4">
+                            <h5 class="card-title mt-3 mb-4 d-inline-block"
+                                style="width: 100px; height: 100px; border-radius: 50%; border: 1px solid #4b4747; padding: 25px; ">
+                                <img src="assets/img/icon6.png" style="width: 52px; filter: grayscale(1); opacity: .35;"
+                                    alt="">
+                            </h5>
+                            <h4 class="card-subtitle mb-3 fs-20 fw-normal">Responsive Design</h4>
+                            <p class="card-text fs-16" style="color: #a9adb8;">Responsive design ensures that a website or application adapts seamlessly to various devices and screen sizes, providing an optimal and consistent user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service end -->
+
+
+
+    <!-- js link  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

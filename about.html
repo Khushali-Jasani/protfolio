@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushali - About</title>
+
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- fonts css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header start  -->
+    <div class="menu d-none d-lg-flex">
+        <ul class="position-fixed" style="right: 30px; bottom: 0;z-index: 3;opacity: 1;top: 0;
+            height: 100%;display: flex !important;justify-content: center;flex-direction: column;align-items: center;">
+            <li class="">
+                <a href="index.html" class="text-white">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">HOME</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html" class="active text-white">
+                    <i class="fa-solid fa-user"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">ABOUT</span>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="text-white">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">PORTFOLIO</span>
+                </a>
+            </li>
+            <li>
+                <a href="contect.html" class="text-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">CONTECT</span>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="text-white">
+                    <i class="fa-solid fa-pencil"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="service.html" class="text-white">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span
+                        style="background-color: #FFB400; color: #fff; position: absolute; height: 100%; padding: 0 25px 0 30px; border-radius: 30px; line-height: 50px; height: 50px; top: 0; right: 0; opacity: 0; transition: all 0.5s; z-index: -1;"
+                        class="fw-semibold">SERVICE</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+
+    <!-- toggle start  -->
+    <button class="btn bg-secondery text-white position-fixed d-lg-none " style="top: 20px; right: 45px;" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+            class="fa-solid fa-bars"></i></button>
+
+    <div class="offcanvas bg-secondery offcanvas-end" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close bg-white text-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="index.html"><i
+                            class="pe-4 fa-solid fa-house-chimney"></i>HOME</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="active-2 text-secondery" href="about.html"><i class="pe-4 fa-solid fa-user"></i>ABOUT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="portfolio.html"><i
+                            class="pe-4 fa-solid fa-briefcase"></i>PORTFOLIO</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="contect.html"><i class="pe-4 fa-solid fa-envelope"></i>CONTECT</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="blog.html"><i class="pe-4 fa-solid fa-pencil"></i>BLOG</a>
+                </li>
+                <li class="border-bottom border-secondery mb-3 pb-3">
+                    <a class="text-secondery" href="service.html"><i
+                            class="pe-4 fa-solid fa-screwdriver-wrench"></i>SERVICE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- toggle end -->
+
+
+    <!-- title start  -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="title d-flex justify-content-center position-relative" style="padding: 100px 0;">
+                    <h1 class="fs-56 text-uppercase m-0" style="font-weight: 900;">
+                        About
+                        <span class="text-primary">Me</span>
+                    </h1>
+                    <span class="back-title position-absolute text-uppercase"
+                        style="font-size: 90px; color: rgba(255, 255, 255, 0.07);transform: translateY(-50%);font-weight: 900; top: 50%; margin: 0 auto; letter-spacing: 10px;">Resume</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- title end -->
+
+    <!-- info start  -->
+    <section class="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pb-4 pb-lg-0 col-lg-6">
+                    <div class="about-details">
+                        <h3 class="fs-26 pb-4 m-0 fw-semibold text-uppercase">Hi There! I'm Khushali Jasani</h3>
+                        <span class="fs-24 text-primary">Front End Designer</span>
+                        <p class="text-white fs-16 pt-3 lh-lg" style="padding-right: 100px;">Hi, I'm Khushali jasani, a creative front end designer. I craft clean and user-friendly digital experiences that blend aesthetics with functionality. Proficient in HTML, CSS, and UI/UX, I turn design concepts into responsive websites. Let's bring your ideas to life!</p>
+                        <a href="Khushali Jasani Resume.pdf" download="">
+                            <div class="button position-relative overflow-hidden"
+                                style="z-index: 1; border-radius: 40px; padding: 14px 70px 14px 35px; background-color: transparent; border: 1px solid #FFB400; display: inline-block;">
+                                <span class="text-white text-uppercase fw-semibold fs-15"
+                                    style="transition: all 0.5s;">DOWNLAOD CV</span>
+                                <div class="btn-icon position-absolute text-white fs-19"
+                                    style="background-color: #FFB400; width: 55px; height: 56px; border-radius: 50%; text-align: center; line-height: 55px; bottom: 0;right: -1px;">
+                                    <i class="fa-solid fa-download"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="info-details">
+                        <h2 class="fs-26 pb-4 m-0 fw-semibold">PERSONAL INFOS</h2>
+                        <div class="col-12 d-flex flex-wrap">
+                            <div class="col-12 col-xl-5">
+                                <ul>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">First Name :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">Khushali</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Last Name :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">Jasani</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Age :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">21 Years</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Birthday :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">Jun 24, 2002</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Nationality :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">India</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xl-7">
+                                <ul>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Address :</span>
+                                        <span class="fs-16 ps-2 fw-semibold"> Motavarachha</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Phone :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">+91 9824038401</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Email :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">khushijasani3120@gmail.com</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">From :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">Surat, Gujarat</span>
+                                    </li>
+                                    <li class="d-flex pb-3">
+                                        <span class="fs-16 fw-semibold text-secondery">Languages :</span>
+                                        <span class="fs-16 ps-2 fw-semibold">English, Hindi, Gujarati</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- info end -->
+
+    <!-- line start  -->
+    <section class="line d-flex align-items-center justify-content-center" style="padding: 70px 0;">
+        <div class="line" style="width: 30%; background-color: #252525; height: 2px;"></div>
+    </section>
+    <!-- line end -->
+
+    <!-- skil start  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2 class="fs-26 fw-semibold d-flex justify-content-center align-items-center">MY SKILLS</h2>
+            </div>
+            <div class="row py-5 row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+                <div class="skill" style="padding-bottom: 60px;">
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>90<span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cours-name text-center d-block">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">PHOTOSHOP</h2>
+                    </div>
+                </div>
+                <div class="skill" style="padding-bottom: 60px;">
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg class="s2">
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>92<span>%</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cours-name text-center">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">ILLUSTRATOR</h2>
+                    </div>
+                </div>
+                <div class="skill" style="padding-bottom: 60px;">
+                    <div class="round d-flex justify-content-center">
+                        <div class="round d-flex justify-content-center">
+                            <div class="percent">
+                                <svg class="s3">
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>98<span>%</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cours-name text-center">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">FIGMA</h2>
+                    </div>
+                </div>
+                <div class="skill" style="padding-bottom: 60px;">
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg class="s4">
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>85<span>%</span></h2>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="cours-name text-center">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">UI/UX</h2>
+                    </div>
+                </div>
+                <div class="skill" >
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg class="s5">
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>85<span>%</span></h2>
+                            </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="cours-name text-center d-block">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">HTML/CSS</h2>
+                    </div>
+                </div>
+                <div class="skill" >
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg class="s6">
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>89<span>%</span></h2>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="cours-name text-center">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">MEDIA QUREY</h2>
+                    </div>
+                </div>
+                <div class="skill" >
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg class="s7">
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>80<span>%</span></h2>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="cours-name text-center">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">J-QUERY/SCSS</h2>
+                    </div>
+                </div>
+                <div class="skill" >
+                    <div class="round d-flex justify-content-center">
+                        <div class="percent">
+                            <svg class="s8">
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>88<span>%</span></h2>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <div class="cours-name text-center">
+                        <h2 class="fs-16 m-0 pt-4 fw-semibold">BOOTSTARP</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skil end -->
+
+    <!-- line start  -->
+    <section class="line d-flex align-items-center justify-content-center" style="padding: 70px 0;">
+        <div class="line" style="width: 30%; background-color: #252525; height: 2px;"></div>
+    </section>
+    <!-- line end -->
+
+    <!-- education start  -->
+        <section style="padding-bottom: 70px;">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fs-26 fw-semibold d-flex justify-content-center align-items-center pb-5 m-0">EDUCATION</h2>
+                </div>
+                <div class="row">
+                    <div class="education-content px-5 pb-5" style="border-left: inset 1px #a79f9f;">
+                        <div class="education-details position-relative">
+                            <h2 class="fs-24 text-primary">Fornt and design</h2>
+                            <span class="fs-19 text-secondery mt-2 mb-4 d-inline-block">2023-2024</span>
+                            <h4 class="fs-24 m-0">Red & White Multimedia Education</h4>
+                            <p class="fs-16 text-secondery fw-normal pt-3">Front end design involves creating the visual and interactive elements of a website or application that users directly experience and interact with.</p>
+                        </div>
+                    </div>
+                    <div class="education-content px-5 pb-5" style="border-left: inset 1px #a79f9f;">
+                        <div class="education-details position-relative">
+                            <h2 class="fs-24 text-primary">B.COM</h2>
+                            <span class="fs-19 text-secondery mt-2 mb-4 d-inline-block">2021-2022</span>
+                            <h4 class="fs-24 m-0">J.Z.Shah & H.P.Desai Commerce Collage</h4>
+                            <p class="fs-16 text-secondery fw-normal pt-3">A Bachelor of Commerce (B.Com) degree program provides students with a comprehensive understanding of business principles, accounting, finance, and economics.
+                        </div>
+                    </div>
+                    <div class="education-content px-5 pb-5" style="border-left: inset 1px #a79f9f;">
+                        <div class="education-details position-relative">
+                            <h2 class="fs-24 text-primary">H.S.C</h2>
+                            <span class="fs-19 text-secondery mt-2 mb-4 d-inline-block">2018-2019</span>
+                            <h4 class="fs-24 m-0">P.P.Savani Vidhyabhavan</h4>
+                            <p class="fs-16 text-secondery fw-normal pt-3">The Higher Secondary Certificate (H.S.C.) is an educational qualification typically completed after the 10th grade, serving as a bridge to higher education or vocational training. I achieved a <span class="text-primary">76%</span> score in my H.S.C exams.</p>
+                        </div>
+                    </div>
+                    <div class="education-content px-5 pb-5" style="border-left: inset 1px #a79f9f;">
+                        <div class="education-details position-relative">
+                            <h2 class="fs-24 text-primary">S.S.C</h2>
+                            <span class="fs-19 text-secondery mt-2 mb-4 d-inline-block">2016-2017</span>
+                            <h4 class="fs-24 m-0">J.S.V.V</h4>
+                            <p class="fs-16 text-secondery fw-normal pt-3">Secondary School Certificate (S.S.C.) is an academic qualification typically completed after the 10th grade, representing the successful completion of secondary education. I achieved a <span class="text-primary">76%</span> score in my S.S.C exams.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- education end -->
+
+    <!-- js link  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.js"></script>
+</body>
+
+</html>
